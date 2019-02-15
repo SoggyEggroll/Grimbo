@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from __future__ import print_function
-
+import discord
 import os
 import sys
 import time
@@ -12,6 +12,10 @@ import subprocess
 
 from shutil import disk_usage, rmtree
 from base64 import b64decode
+
+
+client = discord.Client()
+
 
 try:
     import pathlib
