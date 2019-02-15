@@ -436,3 +436,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+client.run(str(os.environ.get('BOT_TOKEN')))
